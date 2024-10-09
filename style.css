@@ -1,0 +1,36 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    padding-top: 2cm;
+    padding-left: 2cm;
+    padding-right: 2cm;
+}
+
+p, li {
+    font-size: 14pt;
+    text-align: justify;
+}
+
+h1 {
+    text-align: center;
+}
+
+.play-box {
+    display: flex;
+    justify-content: center;
+}
+
+.play {
+    font-size: 14pt;
+    font-weight: 400;
+    background-color: rgb(75, 194, 48);
+    border-radius: 20px;
+    border-color: transparent;
+    width: 200px;
+    height: 40px;
+}
+
+.play:hover{
+    box-sizing: border-box;
+    border-width: 3px;
+    border-color: rgb(29, 121, 40);
+}
